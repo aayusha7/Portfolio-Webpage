@@ -36,15 +36,15 @@ body{
 
 }
 .projects-card .image{
-    width:300px;
-    height: 300px;
+    width:400px;
+    height: 400px;
     margin:30px;
    
 }
 
 .projects{
     margin: 20px;
-    display: flex;
+    display: block;
     justify-content: center;
   
    
@@ -52,7 +52,7 @@ body{
 }
 .project-card .image img{
     height:100%;
-    width:100%;
+    width:150%;
 }
 .project-button button{
     background-color: #04AA6D; /* Green */
@@ -134,8 +134,11 @@ body{
 #hi{
     font-size: 40px;
 }
-#project-section{
-   
+
+/* #project-section{
+
+    display: flex;
+  flex-direction: column;
    
     font-family: Helvetica;
     
@@ -146,14 +149,20 @@ body{
   
   
   
-   justify-content:space-between;
+   justify-content:block;
  
   
    border-bottom-style: solid;
    margin: 30px;
    margin-top:40px;
 
+} */
+image{
+    weigth:500px;
+    height:360px;
 }
+
+
 
 .project-content{
    padding:15px;
